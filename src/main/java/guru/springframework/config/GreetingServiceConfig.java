@@ -14,6 +14,7 @@ import org.springframework.context.annotation.Profile;
 @Configuration
 public class GreetingServiceConfig {
 
+    // test a comment
     @Bean
     GreetingServiceFactory greetingServiceFactory(GreetingRepository repository){
         return new GreetingServiceFactory(repository);
